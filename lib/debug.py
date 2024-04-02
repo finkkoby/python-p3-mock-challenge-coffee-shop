@@ -7,5 +7,7 @@ from classes.many_to_many import Coffee
 
 if __name__ == '__main__':
     print("HELLO! :) let's debug")
+    coffee = Coffee("Mocha")
+    coffee.name = "Caramel"
 
     ipdb.set_trace()
